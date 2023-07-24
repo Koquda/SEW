@@ -1,0 +1,46 @@
+/*Especificidad: 001*/
+body {
+    /*background-color: turquoise;*/
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*Especificidad: 001*/
+form {
+    display: grid;
+    grid-template-columns: repeat(5, 2em);
+    grid-column-gap: 4em;
+    grid-row-gap: 1em;
+    background-color: #444;
+    padding: 2em;
+}
+
+/*Especificidad: 001*/
+input {
+    border-radius: 1rem;
+    padding: 1em;
+    font-size: 1.5em;
+    padding-right: 2.5em;
+}
+
+/*Especificidad: 010*/
+input[type=text] {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    width: 16em;
+}
+
+/*Especificidad: 010*/
+input[value="+"] {
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+/* Especificidad 010*/
+input[value="="] {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
