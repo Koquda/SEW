@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alejandro Campa Martínez" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Ejercicio7</title>
+    <link rel="stylesheet" href="Ejercicio7.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="Ejercicio7.js"></script>
+</head>
+
+<body>
+    <header>
+        <button onclick="ejercicio.ocultarh();">Ocultar h?</button>
+        <button onclick="ejercicio.mostrarh();">Mostrar h?</button>
+        <button onclick="ejercicio.showToEdit();">Modificar h1</button>
+        <button onclick="ejercicio.añadirElemento();">Añadir párrafo</button>
+        <button onclick="ejercicio.eliminarElemento();">Eliminar párrafo</button>
+        <button onclick="ejercicio.recorrerElementos();">Recorrer elementos</button>
+        <button onclick="ejercicio.sumarTabla();">Sumar valores de la tabla</button>
+    </header>
+
+    <main>
+        <h1>Esto es un h1</h1>
+        <h2>Esto es un h2</h2>
+        <h3>Esto es un h3</h3>
+
+        <section hidden>
+            <h4>Esto es un h1 oculto</h4>
+            <textarea cols="40" rows="5"></textarea>
+            <button onclick="ejercicio.modificarh1()">Confirmar</button>
+        </section>
+
+        <p>El párrafo que estas leyendo es un p</p>
+
+        <table>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </main>
+</body>

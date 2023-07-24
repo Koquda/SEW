@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alejandro Campa Martínez" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Ejercicio11 - Tarea6 - Google maps search simulator</title>
+    <link rel="stylesheet" href="Tarea6.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Tarea6.js"></script>
+</head>
+
+<body>
+    <h1>Simulador de búsqueda de direcciones</h1>
+    <main>
+        <section>
+            <h2>Ingrese la dirección a buscar:</h2>
+            <form onsubmit="dinamicMap.searchPlace();return false;">
+                <input type="text" placeholder="Introduzca un dirección">
+                <input type="submit" value="Buscar">
+            </form>
+        </section>
+        <article>
+            <h2>Mapa</h2>
+        </article>
+    </main>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCI15scPRe6zX3qYtk3xJRLLZLS0m1lOVY&callback=dinamicMap.initMap"></script>
+</body>
+
+</html>

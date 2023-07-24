@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alejandro Campa Martínez" />
+    <meta name="viewport" content ="width=device-width, initial scale=1.0" />
+    <title>Ejercicio4 - Calculadora Científica</title>
+    <link rel="stylesheet" href="CalculadoraCientifica.css">
+    <script src="CalculadoraCientifica.js"></script>
+</head>
+<body>
+    <h1>Calculadora Científica</h1>
+
+    <form onsubmit="return false;">
+        <!-- Text readOnly para ver las operaciones -->
+        <label for="res" hidden>Texto para mostrar las operaciones</label>
+        <input type="text" id="res" readonly>
+
+
+        <!-- Botones de la calculadora -->
+        <input type="button" id="unidadesAngulo" value="DEG" onclick="calculadora.cambiaUnidadesAngulo();" />
+        <input type="button" value="HYP" onclick="calculadora.hyp();" />
+        <input type="button" value="F-E" onclick="calculadora.fe();" />
+        <input type="button" value="MC" onclick="calculadora.mrc();" />
+        <input type="button" value="MR" onclick="calculadora.mrc();" />
+        <input type="button" value="M+" onclick="calculadora.memoriaSumar();" />
+        <input type="button" value="M-" onclick="calculadora.memoriaRestar();" />
+        <input type="button" value="MS" onclick="calculadora.memoriaSave();" />
+        <input type="button" value="x2" onclick="calculadora.elevarCuadrado();" />
+        <input type="button" value="xy" onclick="calculadora.elevarY();" />
+        <input type="button" id="seno" value="sin" onclick="calculadora.seno();" />
+        <input type="button" id="coseno" value="cos" onclick="calculadora.coseno();" />
+        <input type="button" id="tangente" value="tan" onclick="calculadora.tangente();" />
+        <input type="button" value="√" onclick="calculadora.raiz();" />
+        <input type="button" value="10x" onclick="calculadora.diezElevado();" />
+        <input type="button" value="log" onclick="calculadora.log();" />
+        <input type="button" value="Exp" onclick="calculadora.exponente();" />
+        <input type="button" value="Mod" onclick="calculadora.modulo();" />
+        <input type="button" value="↑" onclick="calculadora.flecha();" />
+        <input type="button" value="CE" onclick="calculadora.borrar();" />
+        <input type="button" value="C" onclick="calculadora.borrar();" />
+        <input type="button" value="←" onclick="calculadora.borrarUltimoInput();" />
+        <input type="button" value="/" onclick="calculadora.division();" />
+        <input type="button" value="pi" onclick="calculadora.digitos(Math.PI);" />
+        <input type="button" value="7" onclick="calculadora.digitos('7');" />
+        <input type="button" value="8" onclick="calculadora.digitos('8');" />
+        <input type="button" value="9" onclick="calculadora.digitos('9');" />
+        <input type="button" value="*" onclick="calculadora.multiplicacion();" />
+        <input type="button" value="n!" onclick="calculadora.factorial();" />
+        <input type="button" value="4" onclick="calculadora.digitos('4');" />
+        <input type="button" value="5" onclick="calculadora.digitos('5');" />
+        <input type="button" value="6" onclick="calculadora.digitos('6');" />
+        <input type="button" value="-" onclick="calculadora.resta();" />
+        <input type="button" value="+/-" onclick="calculadora.masMenos();" />
+        <input type="button" value="1" onclick="calculadora.digitos('1');" />
+        <input type="button" value="2" onclick="calculadora.digitos('2');" />
+        <input type="button" value="3" onclick="calculadora.digitos('3');" />
+        <input type="button" value="+" onclick="calculadora.suma();" />
+        <input type="button" value="(" onclick="calculadora.abrirParentesis();" />
+        <input type="button" value=")" onclick="calculadora.cerrarParentesis();" />
+        <input type="button" value="0" onclick="calculadora.digitos('0');" />
+        <input type="button" value="." onclick="calculadora.punto();" />
+        <input type="submit" value="=" onclick="calculadora.igual();" />
+    </form>
+</body>

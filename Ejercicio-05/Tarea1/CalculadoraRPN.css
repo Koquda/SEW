@@ -1,0 +1,60 @@
+/*Especificidad: 001*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*Especificidad: 001*/
+form {
+    display: grid;
+    grid-template-columns: repeat(5, 2em);
+    grid-column-gap: 4em;
+    grid-row-gap: 1em;
+    background-color: rgb(187, 184, 184);
+    padding: 2em;
+}
+
+/*Especificidad: 001*/
+input {
+    border-radius: 1%;
+    padding: 1em;
+    font-size: 1.5em;
+    padding-right: 2.5em;
+}
+
+/*Especificidad: 010*/
+input[type=text]{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    width: 16em;
+}
+textarea {
+    grid-column-start: 1;
+    width: 35.5em;
+    height: 10em;
+    background-color: #f2f2f2;
+
+    text-align: right;
+    text-overflow: ellipsis;
+    max-width: 35.5em;
+    min-width: 35.5em;
+
+    grid-column-end: span 4;
+}
+
+/*Especificidad: 010*/
+input[value="ENTER"] {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    width: 19.5em;
+}
+
+/*Especificidad: 010*/
+input[value="+"],
+input[value="-"],
+input[value="."],
+input[value="/"],
+input[value="*"]
+{
+    background-color: rgb(138, 138, 138);
+}

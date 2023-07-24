@@ -1,0 +1,256 @@
+{
+    "type" : "FeatureCollection",
+    "features" : [
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -5.926943764909175, 43.5606906693661 ]
+            },
+            "properties" : {
+                "name" : "Lugar de residencia de Alejandro Campa Martínez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -5.926943764909175, 43.5606906693661 ]
+            },
+            "properties" : {
+                "name" : "Lugar de nacimiento de Alejandro Campa Martínez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -8.723710348830085, 42.22429833274269 ]
+            },
+            "properties" : {
+                "name" : "Lugar de nacimiento de Aaron Orozco"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -8.723710348830085, 42.22429833274269 ]
+            },
+            "properties" : {
+                "name" : "Lugar de residencia de Aaron Orozco"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -0.4085387348073102, 39.436411081395015 ]
+            },
+            "properties" : {
+                "name" : "Lugar de nacimiento de Fernando Arias Martínez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -0.4085387348073102, 39.436411081395015 ]
+            },
+            "properties" : {
+                "name" : "Lugar de residencia de Fernando Arias Martínez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -1.1460590271463165, 37.97809057876099 ]
+            },
+            "properties" : {
+                "name" : "Lugar de residencia de Román Alonso Pérez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -1.1460590271463165, 37.97809057876099 ]
+            },
+            "properties" : {
+                "name" : "Lugar de nacimiento de Román Alonso Pérez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -5.861618259538014, 43.37060851270396 ]
+            },
+            "properties" : {
+                "name" : "Lugar de residencia de Pedro Martínez Gómez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -5.861618259538014, 43.37060851270396 ]
+            },
+            "properties" : {
+                "name" : "Lugar de nacimiento de Pedro Martínez Gómez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -3.7936906440531035, 37.774935527161254 ]
+            },
+            "properties" : {
+                "name" : "Lugar de nacimiento de Pedro De Santiago Alonso"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -3.7936906440531035, 37.774935527161254 ]
+            },
+            "properties" : {
+                "name" : "Lugar de residencia de Pedro De Santiago Alonso"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -5.575845916069623, 42.604992620200825 ]
+            },
+            "properties" : {
+                "name" : "Lugar de residencia de Rosa Santiago Martínez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -5.575845916069623, 42.604992620200825 ]
+            },
+            "properties" : {
+                "name" : "Lugar de nacimiento de Rosa Santiago Martínez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -3.638952310254795, 40.46229381949852 ]
+            },
+            "properties" : {
+                "name" : "Lugar de residencia de Emma Salinas Durán"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -3.638952310254795, 40.46229381949852 ]
+            },
+            "properties" : {
+                "name" : "Lugar de nacimiento de Emma Salinas Durán"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -5.848656956652493, 43.37253881724497 ]
+            },
+            "properties" : {
+                "name" : "Lugar de residencia de Alberto Romero Ibáñez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -5.926943764909175, 43.5606906693661 ]
+            },
+            "properties" : {
+                "name" : "Lugar de residencia de Susana Bustos Pérez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -5.926943764909175, 43.5606906693661 ]
+            },
+            "properties" : {
+                "name" : "Lugar de nacimiento de Susana Bustos Pérez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -4.719674221584838, 41.64364626349696 ]
+            },
+            "properties" : {
+                "name" : "Lugar de residencia de María García García"
+            }
+        }
+        ,
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -4.719674221584838, 41.64364626349696 ]
+            },
+            "properties" : {
+                "name" : "Lugar de nacimiento de María García García"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -8.214488335993613, 43.490764431829994 ]
+            },
+            "properties" : {
+                "name" : "Lugar de residencia de Francisco Crespo Pérez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -8.214488335993613, 43.490764431829994 ]
+            },
+            "properties" : {
+                "name" : "Lugar de nacimiento de Francisco Crespo Pérez"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -8.214488335993613, 43.490764431829994 ]
+            },
+            "properties" : {
+                "name" : "Lugar de residencia de Luis Sanchez Sala"
+            }
+        },
+        {
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [ -8.214488335993613, 43.490764431829994 ]
+            },
+            "properties" : {
+                "name" : "Lugar de nacimiento de Luis Sanchez Sala"
+            }
+        }
+    ]
+}

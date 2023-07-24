@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alejandro Campa Martínez" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>Ejercicio13 - Tarea2 - Mapa Geo JSON</title>
+    <link rel="stylesheet" href="MapaGeoJSON.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="MapaGeoJSON.js"></script>
+</head>
+
+<body>
+    <h1>Carga de un archivo GeoJSON</h1>
+    <input type="file" onchange="mapa.initMap(this.files)">
+    <section>
+        <h2>Mapa</h2>
+    </section>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCI15scPRe6zX3qYtk3xJRLLZLS0m1lOVY&libraries=places"></script>
+</body>
+
+</html>
