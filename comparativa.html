@@ -1,0 +1,104 @@
+<!-- Hacer una pagina que sea una comparación entre ASP.NET y ASP.NET Core -->
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <meta charset="UTF-8" >
+    <title>ASP .NET Core: Comparativa con ASP.NET</title>
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/tabla.css" />
+
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Alejandro Campa Martínez" />
+    <meta name ="description" content ="Página que contiene una comparación entre ASP.NET y ASP.NET Core" />
+    <meta name ="keywords" content ="aquí cada documento debe tener la lista de las palabras clave del mismo separadas por comas" />
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <header>
+        <h1>ASP .NET Core</h1>
+
+        <nav>
+            <a tabindex="1" accesskey="I" href="index.html">Inicio</a>
+            <a tabindex="2" accesskey="V" href="video.html">Video_introductorio</a>
+            <a tabindex="3" accesskey="C" href="comparativa.html">Comparativa</a>
+            <a tabindex="4" accesskey="F" href="formulario.html">Formulario</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+        <h2>Comparativa entre ASP.NET y ASP.NET Core</h2>
+        <h3>ASP.NET</h3>
+        <p>
+            ASP.NET 4.x es un marco consolidado que proporciona los servicios necesarios para compilar aplicaciones web de nivel empresarial basadas en servidor en Windows.
+        </p>
+
+        <h3>ASP.NET Core</h3>
+        <p>
+            ASP.NET Core es un marco multiplataforma de código abierto que tiene como finalidad compilar modernas aplicaciones web basadas en la nube en Windows, macOS y Linux.
+        </p>
+
+        <table>
+            <caption> Comparativa ASP.NET y ASP.NET Core </caption>
+            <tbody>
+                <tr>
+                    <th scope="col" id="row">fila/columna</th>
+                    <th scope="col" id="asp.net">ASP.NET</th>
+                    <th scope="col" id="asp.netCore">ASP.NET Core</th>
+                </tr>
+                <tr>
+                    <th scope="row" id="compilacionEn" headers="compilacionEn">Compilación en</th>
+                    <td headers="compilacionEn asp.net">Windows</td>
+                    <td headers="compilacionEn asp.netCore">Windows, macOS, Linux</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="versiones" headers="versiones">Cantidad de versiones</th>
+                    <td headers="versiones asp.net">1 por equipo</td>
+                    <td headers="versiones asp.netCore">Varias por equipo</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="entornosDesarrollo" headers="entornosDesarrollo">Entorno de desarrollo</th>
+                    <td headers="entornosDesarrollo asp.net">Visual Studio</td>
+                    <td headers="entornosDesarrollo asp.netCore">VS, VS para Mac y VSCode</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="interfaz" headers="interfaz">Interfaz de usuario</th>
+                    <td headers="interfaz asp.net">Web Forms, SignalR, MVC, API web, WebHooks o Páginas web</td>
+                    <td headers="interfaz asp.netCore">Razor Pages (recomendado), MVC, Web API y SignalR</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="lenguajes" headers="lenguajes">Lenguaje de desarrollo</th>
+                    <td headers="lenguajes asp.net">C#, VB o F#</td>
+                    <td headers="lenguajes asp.netCore">C# o F#</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="entornosEjecucion" headers="entornosEjecucion">Entorno de ejecución</th>
+                    <td headers="entornosEjecucion asp.net">.NET Framework</td>
+                    <td headers="entornosEjecucion asp.netCore">.NET Core</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Enlace a la comparativa completa de ASP.NET 4.x y ASP.NET Core -->
+        <h3>Si quieres saber más sobre esta comparativa visita la página de <a href='https://learn.microsoft.com/es-es/aspnet/core/fundamentals/choose-aspnet-framework?view=aspnetcore-6.0'>comparativa</a></h3>
+        </section>
+    </main>
+
+    <footer>
+        <p>Alejandro Campa Martínez</p>
+        <p><a href="mailto:uo282874@uniovi.es">UO282874@uniovi.es</a></p>
+        <img src="multimedia/logo1.jpg" alt="Logo1 de ASP.NET Core"/>
+        <img src="multimedia/logo2.png" alt="Logo2 de ASP.NET Core"/>
+    </footer>
+</body>
+</html>

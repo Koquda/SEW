@@ -1,0 +1,62 @@
+<!-- Página que contiene un formulario -->
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>ASP .NET Core: </title>
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/formulario.css" />
+    
+    <meta name ="author" content ="Alejandro Campa Martínez" />
+    <meta name ="description" content ="la página contiene un formulario a rellenar para recibir un bootcamp" />
+    <meta name ="keywords" content =""/>
+
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <header>
+        <h1>ASP .NET Core</h1>
+
+        <nav>
+            <a tabindex="1" accesskey="I" href="index.html">Inicio</a>
+            <a tabindex="2" accesskey="V" href="video.html">Video_introductorio</a>
+            <a tabindex="3" accesskey="C" href="comparativa.html">Comparativa</a>
+            <a tabindex="4" accesskey="F" href="formulario.html">Formulario</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>¡Oferta especial!</h1>
+        <section>
+        <h2>Si quiere recibir un bootcamp gratuito, rellene el siguiente formulario</h2>
+            <form>
+            <p><label for="nombre">Nombre: </label> <input id="nombre" type="text"></p>
+            <p><label for="apellidos">Apellidos: </label> <input id="apellidos" type="text"></p>
+            <p><label for="email">Email: </label><input id="email" type="email"></p>
+            <fieldset>
+                <legend>¿Le ha resultado util la página?</legend>
+                <label for="si"><input id="si" type="radio" value="si">Si</label>
+                <label for="no"><input id="no" type="radio" value="no">No</label>
+            </fieldset>
+            <label for="comentarios">Comentarios: </label><textarea id="comentarios" maxlength="300"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Alejandro Campa Martínez</p>
+        <p><a href="mailto:uo282874@uniovi.es">UO282874@uniovi.es</a></p>
+        <img src="multimedia/logo1.jpg" alt="Logo1 de ASP.NET Core"/>
+        <img src="multimedia/logo2.png" alt="Logo2 de ASP.NET Core"/>
+    </footer>
+</body>
+</html>

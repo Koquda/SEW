@@ -1,0 +1,67 @@
+/*Especificidad: 001*/
+form {
+    /* Colors */
+    background-color: #44475a;
+    color: #f8f8f2;
+
+    /* Sizing */
+    width: 60%;
+    height: 60%;
+    padding: 5%;
+    margin: auto auto 5% auto;
+}
+
+/*Especificidad: 001*/
+input, textarea {
+    /* Colors */
+    background-color: #fbfbfb; 
+    color:#000000;
+
+    /* Sizing */
+    height: 3em;
+    margin-bottom: 3em;
+    width: 100%; 
+    border: none;
+}
+
+/* Especificidad: 011*/
+input[type=radio] {
+    height: 1.75em;
+    width: 1.75em;
+    margin: 1.25em;
+}
+
+/* Especificidad: 001*/
+legend {
+    /* Colors */
+    background-color: #282a36;
+    color: #f8f8f2;
+
+    /* Sizing */
+    padding: 0.3em 0.6em;
+}
+
+/* Especificidad: 001*/
+fieldset {
+    margin-bottom: 2em;
+}
+
+/* Especificidad: 011*/
+input[type=submit] {
+    /* Colors */
+    background-color: #ce4324;
+    color: #282a36;
+
+    /* Positioning */
+    padding: 1em;
+    height: auto;
+
+    /* Text */
+    font-family: 'FiraCOde NFM', sans-seriff;
+    font-size: 2em;
+}
+
+/* Especificidad: 021*/
+input[type=submit]:hover {
+    background-color: #c3c027;
+}
